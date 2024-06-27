@@ -6,7 +6,7 @@ from io import StringIO
 app = Flask(__name__)
 
 API_URL = 'https://api.premiumy.net/v1.0'
-API_KEY = 'DyjwpB52SYORPNuIfy25EA'
+API_KEY = 'LJ9iV0vqRDmxNwCFlUOx3Q'
 
 @app.route('/live_calls', methods=['GET'])
 def get_live_calls():
